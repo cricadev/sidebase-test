@@ -1,13 +1,16 @@
 {
-    "extends": ["@nuxtjs/eslint-config-typescript"],
-    "overrides": [
-        {
-            "files": [
-                "./server/**/*.ts"
-            ],
-            "rules": {
-                "no-console": ["error", { "allow": ["info", "warn", "trace", "error"]}]
-            }
-        }
-    ]
+  "extends": ["@nuxtjs/eslint-config-typescript"],
+  "overrides": [
+    {
+      "files": ["./server/**/*.ts"],
+      "rules": {
+        "no-console": [
+          "error",
+          { "allow": ["info", "warn", "trace", "error"] }
+        ],
+
+        "vue/multi-word-component-names": "off"
+      }
+    }
+  ]
 }

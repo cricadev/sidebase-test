@@ -81,3 +81,6 @@ sw.*
 # Auto generate on postinstall step
 auto-imports.d.ts
 components.d.ts
+
+# Local Netlify folder
+.netlify
