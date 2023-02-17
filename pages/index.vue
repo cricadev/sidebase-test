@@ -1,6 +1,12 @@
 <template>
-  <div class="bg-blue-300 text-center ">
-    this is the index
-    <TheWelcomeContainer />
+  <div class="">
+    <pre style="overflow: auto;">{{ themeVars }}</pre>
   </div>
 </template>
+
+<script setup>
+import { useThemeVars } from 'naive-ui'
+
+const themeVars = useThemeVars()
+
+</script>

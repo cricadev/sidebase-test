@@ -6,12 +6,21 @@ export default defineNuxtConfig({
   runtimeConfig: {
     version: '0.0.1'
   },
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-svgo', '@huntersofbook/naive-ui-nuxt'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-svgo', '@huntersofbook/naive-ui-nuxt', 'nuxt-icon', '@nuxtjs/color-mode', '@nuxt/devtools'
+
+  ],
+
   build: {
     transpile: ['trpc-nuxt']
   },
   extends: ['@sidebase/core'],
   typescript: {
     shim: false
+  },
+  colorMode: {
+    classSuffix: '',
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'light' // fallback value if not system preference found
   }
+
 })
