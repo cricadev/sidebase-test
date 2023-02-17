@@ -19,6 +19,7 @@
       </div>
     </div>
     <navbar-container />
+    <slot />
   </div>
 </template>
 <script setup lang="ts">

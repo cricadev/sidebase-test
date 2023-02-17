@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     version: '0.0.1'
   },
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-svgo', '@huntersofbook/naive-ui-nuxt', 'nuxt-icon', '@nuxtjs/color-mode', '@nuxt/devtools'
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-svgo', '@huntersofbook/naive-ui-nuxt', 'nuxt-icon', '@nuxtjs/color-mode', '@nuxt/devtools', '@nuxt/image-edge'
 
   ],
 
@@ -21,6 +21,8 @@ export default defineNuxtConfig({
     classSuffix: '',
     preference: 'system', // default value of $colorMode.preference
     fallback: 'light' // fallback value if not system preference found
+  },
+  image: {
+    domains: ['cinemagod.cricadev.com']
   }
-
 })

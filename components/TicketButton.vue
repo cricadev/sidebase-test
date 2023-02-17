@@ -12,7 +12,7 @@
   <div id="modal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full">
     <div class="relative w-full h-full max-w-2xl md:h-auto">
       <!-- Modal content -->
-      <div class="relative rounded-lg shadow dark:bg-darkColorPrimary bg-colorPrimary">
+      <div class="relative rounded-lg dark:bg-darkColorPrimary bg-colorPrimary">
         <!-- Modal header -->
         <div class="flex items-center justify-start ">
           <button id="closeButton" data-modal-hide="modal" type="button" class=" text-text dark:text-darkText dark:bg-darkColorSecondary bg-colorSecondary hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5  inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
